@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail Club - Apply</title>
+</head>
+<body>
+
+   
+    <header>
+        <h1>Trail Club</h1>
+        <p>Student hiking club · Classroom example</p>
+        <nav>
+            <a href="eho.html">Home</a> · 
+            <a href="eho2.html">Routes</a> · 
+            <a href="eho3.html">Apply for a trip</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    
+    <p><small><a href="eho.html">Home</a> → <a href="eho2.html">Routes</a> → Application</small></p>
+
+    <main>
+        <h2>Trip Application</h2>
+        <p>This is a practice form. It does not send or store information.</p>
+
+        <form>
+           <fieldset>
+            <h3><legend>1. Participant</legend></h3>
+            
+            <p>
+                <label for="fullname">Full name *</label><br>
+                <input type="text" id="fullname" name="fullname" required>
+            </p>
+
+            <p>
+                <label for="email">Email *</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="group">Student group</label><br>
+                <input type="text" id="group" name="group">
+                </fieldset>
+            </p>
+
+            
+
+            <fieldset>
+            <h3><legend>2. Trip choice</legend></h3>
+
+            <p>
+                <label for="route">Route *</label><br>
+                <select id="route" name="route" required>
+                    <option value="">Choose a route</option>
+                    <option value="river-walk">River Walk</option>
+                    <option value="forest-trail">Forest Trail</option>
+                    <option value="ridge-view">Ridge View</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="date">Preferred date *</label><br>
+                <input type="date" id="date" name="date" required>
+            </p>
+
+            <p>
+                <label for="participants">Number of participants (1–4)</label><br>
+                <input type="number" id="participants" name="participants" value="1" min="1" max="4">
+                </fieldset>
+            </p>
+
+            
+
+            <fieldset>
+            <h3><legend>3. Experience</legend></h3>
+
+            <p>
+                <input type="radio" id="beginner" name="experience" value="beginner">
+                <label for="beginner">Beginner</label><br>
+                <input type="radio" id="regular" name="experience" value="regular">
+                <label for="regular">I hike regularly</label>
+            </p>
+
+            <p>Equipment I have:</p>
+            <p>
+                <input type="checkbox" id="shoes" name="equipment" value="shoes">
+                <label for="shoes">Walking shoes</label><br>
+                <input type="checkbox" id="bottle" name="equipment" value="bottle">
+                <label for="bottle">Water bottle</label><br>
+                <input type="checkbox" id="jacket" name="equipment" value="jacket">
+                <label for="jacket">Jacket</label>
+                </p>
+
+            <p>
+                <label for="notes">Questions or notes</label><br>
+                <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
+                </fieldset>
+            </p>
+
+           
+
+            
+            <p>
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I have read the route description *</label>
+            </p>
+
+            <p>
+                <input type="submit" value="Send application" disabled>
+                <input type="reset" value="Reset form">
+            </p>
+           
+        </form>
+    
+
+        <p><small>* Required fields. Sending remains disabled until a handler is connected.</small></p>
+    </main>
+
+    <hr>
+
+    
+    <footer>
+        <p><small>Trail Club · Fictional trips and prices for HTML practice</small></p>
+        <a href="#top">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
+
+
+
+
