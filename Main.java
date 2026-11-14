@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("=== КРЕСТИКИ-НОЛИКИ ===");
+        System.out.println("КРЕСТИКИ-НОЛИКИ");
         System.out.println("Вводите номер клетки от 1 до 9:");
         System.out.println("1 | 2 | 3\n4 | 5 | 6\n7 | 8 | 9\n");
 
