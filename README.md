@@ -21,4 +21,4 @@
 если ввести букву вместо числа, число не от 1 до 9 или занятую клетку, программа не вылетает, а просит ввести еще раз
 
 
-Что использовал: int, double, String, boolean, char, константы final, if/else, switch, операторы &&, || и !, циклы while и for, continue, массивы, методы, Random и Scanner
+Что использовал: int, double, String, boolean, char, константы final, if/else, switch, операторы &&, || и !, циклы while и for, continue, масивы, методы, Random и Scanner
